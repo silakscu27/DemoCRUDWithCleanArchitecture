@@ -1,0 +1,12 @@
+C:\MyRepos\DemoCRUDWithCleanArchitecture\DemoCRUDWithCleanArchitecture\Application\bin\Debug\net8.0\Application.deps.json
+C:\MyRepos\DemoCRUDWithCleanArchitecture\DemoCRUDWithCleanArchitecture\Application\bin\Debug\net8.0\Application.dll
+C:\MyRepos\DemoCRUDWithCleanArchitecture\DemoCRUDWithCleanArchitecture\Application\bin\Debug\net8.0\Application.pdb
+C:\MyRepos\DemoCRUDWithCleanArchitecture\DemoCRUDWithCleanArchitecture\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyRepos\DemoCRUDWithCleanArchitecture\DemoCRUDWithCleanArchitecture\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+C:\MyRepos\DemoCRUDWithCleanArchitecture\DemoCRUDWithCleanArchitecture\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+C:\MyRepos\DemoCRUDWithCleanArchitecture\DemoCRUDWithCleanArchitecture\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+C:\MyRepos\DemoCRUDWithCleanArchitecture\DemoCRUDWithCleanArchitecture\Application\obj\Debug\net8.0\Application.sourcelink.json
+C:\MyRepos\DemoCRUDWithCleanArchitecture\DemoCRUDWithCleanArchitecture\Application\obj\Debug\net8.0\Application.dll
+C:\MyRepos\DemoCRUDWithCleanArchitecture\DemoCRUDWithCleanArchitecture\Application\obj\Debug\net8.0\refint\Application.dll
+C:\MyRepos\DemoCRUDWithCleanArchitecture\DemoCRUDWithCleanArchitecture\Application\obj\Debug\net8.0\Application.pdb
+C:\MyRepos\DemoCRUDWithCleanArchitecture\DemoCRUDWithCleanArchitecture\Application\obj\Debug\net8.0\ref\Application.dll

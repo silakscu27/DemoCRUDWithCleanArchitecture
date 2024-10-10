@@ -1,0 +1,8 @@
+C:\MyRepos\DemoCRUDWithCleanArchitecture\DemoCRUDWithCleanArchitecture\API\obj\Debug\net8.0\API.csproj.AssemblyReference.cache
+C:\MyRepos\DemoCRUDWithCleanArchitecture\DemoCRUDWithCleanArchitecture\API\obj\Debug\net8.0\API.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyRepos\DemoCRUDWithCleanArchitecture\DemoCRUDWithCleanArchitecture\API\obj\Debug\net8.0\API.AssemblyInfoInputs.cache
+C:\MyRepos\DemoCRUDWithCleanArchitecture\DemoCRUDWithCleanArchitecture\API\obj\Debug\net8.0\API.AssemblyInfo.cs
+C:\MyRepos\DemoCRUDWithCleanArchitecture\DemoCRUDWithCleanArchitecture\API\obj\Debug\net8.0\API.csproj.CoreCompileInputs.cache
+C:\MyRepos\DemoCRUDWithCleanArchitecture\DemoCRUDWithCleanArchitecture\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cs
+C:\MyRepos\DemoCRUDWithCleanArchitecture\DemoCRUDWithCleanArchitecture\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cache
+C:\MyRepos\DemoCRUDWithCleanArchitecture\DemoCRUDWithCleanArchitecture\API\obj\Debug\net8.0\API.sourcelink.json
