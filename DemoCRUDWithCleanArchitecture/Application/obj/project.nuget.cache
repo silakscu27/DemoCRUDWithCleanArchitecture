@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "9vZEhKQSJYltoIBJfgw2dKnvLksuB4K70OXeAIk01X3usfoUGVwPqPWNXFVmfFL5k9U10zRezlOmNsg3LZmErA==",
+  "dgSpecHash": "WbS4TdHNfjUuTGJa9Az23zO/wE92ba+7E7hXZF9du/Ne7T/TnDw5je/YA811MCzBD/uAACVYHwH7Mkk9mH65LA==",
   "success": true,
   "projectFilePath": "C:\\MyRepos\\DemoCRUDWithCleanArchitecture\\DemoCRUDWithCleanArchitecture\\Application\\Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Sıla\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.10\\microsoft.aspnetcore.authorization.8.0.10.nupkg.sha512",
+    "C:\\Users\\Sıla\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.10\\microsoft.aspnetcore.components.8.0.10.nupkg.sha512",
+    "C:\\Users\\Sıla\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.10\\microsoft.aspnetcore.components.analyzers.8.0.10.nupkg.sha512",
+    "C:\\Users\\Sıla\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\8.0.10\\microsoft.aspnetcore.components.authorization.8.0.10.nupkg.sha512",
+    "C:\\Users\\Sıla\\.nuget\\packages\\microsoft.aspnetcore.metadata\\8.0.10\\microsoft.aspnetcore.metadata.8.0.10.nupkg.sha512",
+    "C:\\Users\\Sıla\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\Sıla\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\Sıla\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "C:\\Users\\Sıla\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
