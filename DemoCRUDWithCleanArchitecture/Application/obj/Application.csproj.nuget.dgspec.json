@@ -60,6 +60,10 @@
             "NetcodeHub.Packages.Extensions.LocalStorage": {
               "target": "Package",
               "version": "[1.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.1.2, )"
             }
           },
           "imports": [

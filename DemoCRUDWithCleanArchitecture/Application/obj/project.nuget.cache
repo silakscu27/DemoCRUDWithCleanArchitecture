@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "i9JTyw4to7SF6Y7lHrwZHfJeczrvNzQ+QUmZy0GPg1tsJyg7CwZ1mNrSnhZPN+7eMFqcj+kEFTh6IoHAQkOe9Q==",
+  "dgSpecHash": "s3A5jtMigdxLrM15XWf1JV+JKm1KnIOZMiMYlW5SvgWjBKyfi7zldExZ3bym+d2U21XA5cLVj9BzFurjDeNI/w==",
   "success": true,
   "projectFilePath": "C:\\MyRepos\\DemoCRUDWithCleanArchitecture\\DemoCRUDWithCleanArchitecture\\Application\\Application.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\Sıla\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.10\\microsoft.aspnetcore.components.analyzers.8.0.10.nupkg.sha512",
     "C:\\Users\\Sıla\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\8.0.10\\microsoft.aspnetcore.components.authorization.8.0.10.nupkg.sha512",
     "C:\\Users\\Sıla\\.nuget\\packages\\microsoft.aspnetcore.metadata\\8.0.10\\microsoft.aspnetcore.metadata.8.0.10.nupkg.sha512",
+    "C:\\Users\\Sıla\\.nuget\\packages\\microsoft.bcl.timeprovider\\8.0.1\\microsoft.bcl.timeprovider.8.0.1.nupkg.sha512",
     "C:\\Users\\Sıla\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\Sıla\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Sıla\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0\\microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
@@ -22,8 +23,13 @@
     "C:\\Users\\Sıla\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
     "C:\\Users\\Sıla\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\8.0.0\\microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
     "C:\\Users\\Sıla\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Sıla\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.1.2\\microsoft.identitymodel.abstractions.8.1.2.nupkg.sha512",
+    "C:\\Users\\Sıla\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.1.2\\microsoft.identitymodel.jsonwebtokens.8.1.2.nupkg.sha512",
+    "C:\\Users\\Sıla\\.nuget\\packages\\microsoft.identitymodel.logging\\8.1.2\\microsoft.identitymodel.logging.8.1.2.nupkg.sha512",
+    "C:\\Users\\Sıla\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.1.2\\microsoft.identitymodel.tokens.8.1.2.nupkg.sha512",
     "C:\\Users\\Sıla\\.nuget\\packages\\microsoft.jsinterop\\8.0.3\\microsoft.jsinterop.8.0.3.nupkg.sha512",
-    "C:\\Users\\Sıla\\.nuget\\packages\\netcodehub.packages.extensions.localstorage\\1.0.0\\netcodehub.packages.extensions.localstorage.1.0.0.nupkg.sha512"
+    "C:\\Users\\Sıla\\.nuget\\packages\\netcodehub.packages.extensions.localstorage\\1.0.0\\netcodehub.packages.extensions.localstorage.1.0.0.nupkg.sha512",
+    "C:\\Users\\Sıla\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.1.2\\system.identitymodel.tokens.jwt.8.1.2.nupkg.sha512"
   ],
   "logs": []
 }
