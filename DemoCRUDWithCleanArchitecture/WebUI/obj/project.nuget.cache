@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7sRhjBy2o7DteoSuX6zZQqyzeULTPphVFVZSXAk4xCh3Jc97QqJYj/PDOFl5A5KDVZ+LR7O+W3O11GfHKbG+ew==",
+  "dgSpecHash": "jGXoAn8NbetUJda9ZiQSyQDWS5HlrcpLOMTKmga3I9C/pCxi0tw1f3/MMItfic+RBbLJge+Fs52cdX4H2Y/yQg==",
   "success": true,
   "projectFilePath": "C:\\MyRepos\\DemoCRUDWithCleanArchitecture\\DemoCRUDWithCleanArchitecture\\WebUI\\WebUI.csproj",
   "expectedPackageFiles": [
@@ -31,6 +31,7 @@
     "C:\\Users\\Sıla\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.0\\microsoft.net.illink.tasks.8.0.0.nupkg.sha512",
     "C:\\Users\\Sıla\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.0\\microsoft.net.sdk.webassembly.pack.8.0.0.nupkg.sha512",
     "C:\\Users\\Sıla\\.nuget\\packages\\netcodehub.packages.components.modal\\1.0.1\\netcodehub.packages.components.modal.1.0.1.nupkg.sha512",
+    "C:\\Users\\Sıla\\.nuget\\packages\\netcodehub.packages.components.validations\\1.0.1\\netcodehub.packages.components.validations.1.0.1.nupkg.sha512",
     "C:\\Users\\Sıla\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
     "C:\\Users\\Sıla\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\Sıla\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",

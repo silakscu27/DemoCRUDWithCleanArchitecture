@@ -14,6 +14,7 @@
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)netcodehub.packages.components.validations\1.0.1\buildTransitive\NetcodeHub.Packages.Components.Validations.props" Condition="Exists('$(NuGetPackageRoot)netcodehub.packages.components.validations\1.0.1\buildTransitive\NetcodeHub.Packages.Components.Validations.props')" />
     <Import Project="$(NuGetPackageRoot)netcodehub.packages.components.modal\1.0.1\buildTransitive\NetcodeHub.Packages.Components.Modal.props" Condition="Exists('$(NuGetPackageRoot)netcodehub.packages.components.modal\1.0.1\buildTransitive\NetcodeHub.Packages.Components.Modal.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.net.sdk.webassembly.pack\8.0.0\build\Microsoft.NET.Sdk.WebAssembly.Pack.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.sdk.webassembly.pack\8.0.0\build\Microsoft.NET.Sdk.WebAssembly.Pack.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.net.illink.tasks\8.0.0\build\Microsoft.NET.ILLink.Tasks.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.illink.tasks\8.0.0\build\Microsoft.NET.ILLink.Tasks.props')" />

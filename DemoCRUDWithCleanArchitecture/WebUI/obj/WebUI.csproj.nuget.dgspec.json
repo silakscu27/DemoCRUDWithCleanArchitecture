@@ -69,6 +69,10 @@
             "NetcodeHub.Packages.Components.Modal": {
               "target": "Package",
               "version": "[1.0.1, )"
+            },
+            "NetcodeHub.Packages.Components.Validations": {
+              "target": "Package",
+              "version": "[1.0.1, )"
             }
           },
           "imports": [
