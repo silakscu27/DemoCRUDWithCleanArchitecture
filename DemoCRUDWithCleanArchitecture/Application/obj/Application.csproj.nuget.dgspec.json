@@ -56,6 +56,10 @@
             "Microsoft.Extensions.Http": {
               "target": "Package",
               "version": "[8.0.1, )"
+            },
+            "NetcodeHub.Packages.Extensions.LocalStorage": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             }
           },
           "imports": [

@@ -329,6 +329,32 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "Microsoft.JSInterop/8.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.JSInterop.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.JSInterop.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NetcodeHub.Packages.Extensions.LocalStorage/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
+          "Microsoft.JSInterop": "8.0.3"
+        },
+        "compile": {
+          "lib/net8.0/NetcodeHub.Packages.Extensions.LocalStorage.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/NetcodeHub.Packages.Extensions.LocalStorage.dll": {}
+        }
       }
     }
   },
@@ -881,13 +907,43 @@
         "microsoft.extensions.primitives.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Microsoft.JSInterop/8.0.3": {
+      "sha512": "Oi21Fa7KubCzafwXb2IOdSGg24+/ylYGwrJgAYdWmgXBj04Oj/1b8vr9hrcoFKjQ6K18ryHYh35ZO/CCIEhuzg==",
+      "type": "package",
+      "path": "microsoft.jsinterop/8.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net8.0/Microsoft.JSInterop.dll",
+        "lib/net8.0/Microsoft.JSInterop.xml",
+        "microsoft.jsinterop.8.0.3.nupkg.sha512",
+        "microsoft.jsinterop.nuspec"
+      ]
+    },
+    "NetcodeHub.Packages.Extensions.LocalStorage/1.0.0": {
+      "sha512": "jyMXYCpPowSRAXPx3eLJt3tLCj5FViOzUzFYeMgO0/oEU4lK/uKzyrW8Rw9ncM31ZqRJNzkABr/M9riWkLVmKA==",
+      "type": "package",
+      "path": "netcodehub.packages.extensions.localstorage/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "lib/net8.0/NetcodeHub.Packages.Extensions.LocalStorage.dll",
+        "netcode-hub.png",
+        "netcodehub.packages.extensions.localstorage.1.0.0.nupkg.sha512",
+        "netcodehub.packages.extensions.localstorage.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNetCore.Components.Authorization >= 8.0.10",
       "Microsoft.Extensions.DependencyInjection >= 8.0.1",
-      "Microsoft.Extensions.Http >= 8.0.1"
+      "Microsoft.Extensions.Http >= 8.0.1",
+      "NetcodeHub.Packages.Extensions.LocalStorage >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -946,6 +1002,10 @@
           "Microsoft.Extensions.Http": {
             "target": "Package",
             "version": "[8.0.1, )"
+          },
+          "NetcodeHub.Packages.Extensions.LocalStorage": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           }
         },
         "imports": [
