@@ -48,6 +48,10 @@
             "Mapster": {
               "target": "Package",
               "version": "[7.4.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
             }
           },
           "imports": [
