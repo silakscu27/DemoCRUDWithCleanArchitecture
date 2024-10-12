@@ -471,6 +471,24 @@
           "buildMultiTargeting/NetcodeHub.Packages.Components.Modal.props": {}
         }
       },
+      "NetcodeHub.Packages.Components.Toast/1.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/NetcodeHub.Packages.Components.Toast.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/NetcodeHub.Packages.Components.Toast.dll": {}
+        },
+        "build": {
+          "buildTransitive/NetcodeHub.Packages.Components.Toast.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/NetcodeHub.Packages.Components.Toast.props": {}
+        }
+      },
       "NetcodeHub.Packages.Components.Validations/1.0.1": {
         "type": "package",
         "dependencies": {
@@ -1015,6 +1033,24 @@
         },
         "buildMultiTargeting": {
           "buildMultiTargeting/NetcodeHub.Packages.Components.Modal.props": {}
+        }
+      },
+      "NetcodeHub.Packages.Components.Toast/1.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/NetcodeHub.Packages.Components.Toast.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/NetcodeHub.Packages.Components.Toast.dll": {}
+        },
+        "build": {
+          "buildTransitive/NetcodeHub.Packages.Components.Toast.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/NetcodeHub.Packages.Components.Toast.props": {}
         }
       },
       "NetcodeHub.Packages.Components.Validations/1.0.1": {
@@ -2057,6 +2093,25 @@
         "staticwebassets/modal.js"
       ]
     },
+    "NetcodeHub.Packages.Components.Toast/1.0.5": {
+      "sha512": "zo+WJHNgACz2ZWdn6NLiU9tqkHnRPdYQ3wMd4+jVox/omt/sYfGlrfPhtdrDHGBpfX4q7j02Ej1iVx8j5KT2Zw==",
+      "type": "package",
+      "path": "netcodehub.packages.components.toast/1.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/NetcodeHub.Packages.Components.Toast.props",
+        "buildMultiTargeting/NetcodeHub.Packages.Components.Toast.props",
+        "buildTransitive/NetcodeHub.Packages.Components.Toast.props",
+        "lib/net8.0/NetcodeHub.Packages.Components.Toast.dll",
+        "netcode-hub.png",
+        "netcodehub.packages.components.toast.1.0.5.nupkg.sha512",
+        "netcodehub.packages.components.toast.nuspec",
+        "staticwebassets/NetcodeHub.Packages.Components.Toast.bundle.scp.css"
+      ]
+    },
     "NetcodeHub.Packages.Components.Validations/1.0.1": {
       "sha512": "tRa+cq6au9cHgJ1YCzGdiQia1yC9YiW/3EzYJrFBs0oEWa2UsdNDm3uYq30YsL8+0eHUruBU3T4R6DfDI+v6AQ==",
       "type": "package",
@@ -2222,6 +2277,7 @@
       "Microsoft.NET.Sdk.WebAssembly.Pack >= 8.0.0",
       "NetcodeHub.Packages.Components.DataGrid >= 1.0.1",
       "NetcodeHub.Packages.Components.Modal >= 1.0.1",
+      "NetcodeHub.Packages.Components.Toast >= 1.0.5",
       "NetcodeHub.Packages.Components.Validations >= 1.0.1"
     ]
   },
@@ -2298,6 +2354,10 @@
           "NetcodeHub.Packages.Components.Modal": {
             "target": "Package",
             "version": "[1.0.1, )"
+          },
+          "NetcodeHub.Packages.Components.Toast": {
+            "target": "Package",
+            "version": "[1.0.5, )"
           },
           "NetcodeHub.Packages.Components.Validations": {
             "target": "Package",

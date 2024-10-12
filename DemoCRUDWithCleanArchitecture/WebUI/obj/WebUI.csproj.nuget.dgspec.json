@@ -74,6 +74,10 @@
               "target": "Package",
               "version": "[1.0.1, )"
             },
+            "NetcodeHub.Packages.Components.Toast": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
             "NetcodeHub.Packages.Components.Validations": {
               "target": "Package",
               "version": "[1.0.1, )"
