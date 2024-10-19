@@ -1,7 +1,9 @@
 ﻿
+using Microsoft.AspNetCore.Identity;
+
 namespace Domain.Entity.Authentication
 {
-    public class ApplicationUser
+    public class ApplicationUser : IdentityUser
     {
     }
 }
