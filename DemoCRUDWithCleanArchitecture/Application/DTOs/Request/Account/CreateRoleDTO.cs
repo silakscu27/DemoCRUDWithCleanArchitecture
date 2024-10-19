@@ -1,5 +1,4 @@
-﻿
-namespace Application.DTOs.Request.Account
+﻿namespace Application.DTOs.Request.Account
 {
     public class CreateRoleDTO
     {
