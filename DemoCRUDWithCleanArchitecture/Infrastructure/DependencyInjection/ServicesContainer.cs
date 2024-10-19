@@ -1,7 +1,6 @@
 ﻿using Infrastructure.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Domain.Entity.Authentication;
@@ -15,7 +14,7 @@ namespace Infrastructure.DependencyInjection
     {
         public static IServiceCollection AddInfrastractureService(this IServiceCollection services, IConfiguration config)
         {
-            services.AddDbContext<AppDbContext>(o => o.UseSqlServer(config.GetConnectionString("Default")));
+            services.AddDbContext<AppDbContext>(o => o.UseSqlite(config.GetConnectionString("Default")));
             services.AddIdentityCore<ApplicationUser>()
                 .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<AppDbContext>()
@@ -40,6 +39,17 @@ namespace Infrastructure.DependencyInjection
             });
             services.AddAuthentication();
             services.AddAuthorization();
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy("WebUI",
+                     builder => builder
+                     .WithOrigins("http://localhost:7158")
+                     .AllowAnyMethod()
+                     .AllowAnyHeader()
+                     .AllowCredentials());
+            });
+
             return services;
         }
     }
