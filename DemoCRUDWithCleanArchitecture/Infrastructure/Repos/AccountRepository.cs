@@ -75,6 +75,22 @@ namespace Infrastructure.Repos
                 return new GeneralResponse(true, $"{user.Name} assigned to {role.Name} role");   
         }
 
+        private async Task<GeneralResponse> CreateRoleAsync(CreateRoleDTO model)
+        {
+            if (await FindRoleByNameAsync(model.RoleName) != null)
+                return new GeneralResponse(false, "Role already exists.");
+
+            IdentityRole role = new IdentityRole { Name = model.RoleName };
+            IdentityResult result = await roleManager.CreateAsync(role);
+
+            string error = CheckResponse(result);
+            if (!string.IsNullOrEmpty(error))
+                return new GeneralResponse(false, error);
+
+            return new GeneralResponse(true, $"{model.RoleName} role created successfully.");
+        }
+
+
         private static string CheckResponse(IdentityResult result)
         {
             if (!result.Succeeded)
