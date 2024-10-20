@@ -10,6 +10,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Security.Claims;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Cryptography;
+using Mapster;
 
 namespace Infrastructure.Repos
 {
@@ -58,6 +59,30 @@ namespace Infrastructure.Repos
                 return new JwtSecurityTokenHandler().WriteToken(token);
             }
             catch { return null!; }
+        }
+
+        private async Task<GeneralResponse> AssignUserToRole(ApplicationUser user, IdentityRole role)
+        {
+            if (user == null || role == null) return new GeneralResponse(false, "Model state can not be empty");
+            if (await FindRoleByNameAsync(role.Name) == null)
+                await CreateRoleAsync(role.Adapt(new CreateRoleDTO()));
+
+            IdentityResult result = await userManager.AddToRoleAsync(user, role.Name);
+            string error = CheckResponse(result);
+            if (!string.IsNullOrEmpty(error))
+                return new GeneralResponse(false, error);
+            else
+                return new GeneralResponse(true, $"{user.Name} assigned to {role.Name} role");   
+        }
+
+        private static string CheckResponse(IdentityResult result)
+        {
+            if (!result.Succeeded)
+            {
+                var errors = result.Errors.Select(_ => _.Description);
+                return string.Join(Environment.NewLine, errors);
+            }
+            return null!;
         }
 
         Task<GeneralResponse> IAccount.ChangeUserRoleAsync(ChangeUserRoleRequestDTO model)
